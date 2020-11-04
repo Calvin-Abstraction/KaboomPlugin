@@ -1,0 +1,8 @@
+name: KaboomPlugin
+version: 1.0
+main: edu.calvin.abs.kaboomplugin.KaboomPlugin
+commands:
+  explodemodifier:
+    description: Change the modifier for the exploded block velocity
+    usage: /explodemodifier <x y or z> <modifier decimal number OR "reset">
+    permission: kaboomplugin.explodemodifier
